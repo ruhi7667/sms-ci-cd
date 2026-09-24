@@ -229,6 +229,6 @@ jobs:
               --name sms-frontend \
               --restart unless-stopped \
               -p 80:5173 \
-              ${{ secrets.DOCKERHUB_USERNAME }}/sms-frontend:v${{ github.run_number }}
+              ${{ secrets.DOCKERHUB_USERNAME }}/sms-frongit tend:v${{ github.run_number }}
 
             echo "Frontend deployed successfully"
